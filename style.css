@@ -1,0 +1,29 @@
+body {
+    background-color: #2A233B
+}
+.platform {
+    background-color: white;
+    width: 800px;
+    height: 200px;
+    margin: auto;
+}
+button {
+    background-color: lightblue;
+}
+.button-sets {
+    background-color: black;
+    width: 100px;
+    position: relative;
+    bottom: 20px;
+    left: 300px;
+}
+.bot-hp {
+    position: absolute;
+    top: 0px;
+    left: 900px;
+}
+.text-box {
+    position: absolute;
+    top: 0px;
+    left: 500px;
+}

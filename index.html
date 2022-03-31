@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Fight With Bot</title>
+	</head>
+	<body>
+		<div class="platform">
+			<h1>Your HP:</h1>
+			<input id="hp" value="50" type="text" readonly>
+			<h1>Your points:</h1>
+			<input id="points" value="0" type="text" readonly>
+			<div class="text-box">
+				<h1 id="log" style="position: absolute; text-align: center;"></h1>
+				<h1 id="botlog" style="position: relative; top: 100px;"></h1>
+			</div>
+			<div class="bot-hp">
+				<h1>Bot's HP:</h1>
+				<input onclick="test()" id="bothp" value="50" type="text" readonly>
+				<h1>Bot's points:</h1>
+				<input id="botpoints" value="0" type="text" readonly>
+			</div>
+			<div class="button-sets">
+				<button id="one" onclick="punch()" type="submit">Punch</button>
+				<button onclick="kick()" id="two" type="submit">Kick</button>
+			</div>
+		</div>
+	</body>
+</html>
